@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="page-info"></div>
+
+	<script type="text/x-handlebars-template" id="page-template">	
+		<div class="page" id = "0">
+			<center><img src="{{data.0.pic_small}}"></center>
+			<h1>{{data.0.name}}</h1>
+			<strong>Page: </strong><a href="{{data.0.page_url}}">{{data.0.page_url}}</a>
+			<p><strong>Likes: </strong> {{data.0.fan_count}}</p>
+			<p><strong>Description: </strong> {{data.0.description}}</p>
+			<a href="#" class="moreinfo">More info</a>
+		</div>
+		<div class="page" id = "1">
+			<center><img src="{{data.1.pic_small}}"></center>
+			<h1>{{data.1.name}}</h1>
+			<strong>Page: </strong><a href="{{data.1.page_url}}">{{data.1.page_url}}</a>
+			<p><strong>Likes: </strong> {{data.1.fan_count}}</p>
+			<p><strong>Description: </strong> {{data.1.description}}</p>
+		</div>
+		<div class="page" id = "2">
+			<center><img src="{{data.2.pic_small}}"></center>
+			<h1>{{data.2.name}}</h1>
+			<strong>Page: </strong><a href="{{data.2.page_url}}">{{data.2.page_url}}</a>
+			<p><strong>Likes: </strong> {{data.2.fan_count}}</p>
+			<p><strong>Description: </strong> {{data.2.description}}</p>	
+		</div>
+		<div class="page" id = "3">
+			<center><img src="{{data.3.pic_small}}"></center>
+			<h1>{{data.3.name}}</h1>
+			<strong>Page: </strong><a href="{{data.3.page_url}}">{{data.3.page_url}}</a>
+			<p><strong>Likes: </strong> {{data.3.fan_count}}</p>
+			<p><strong>Description: </strong> {{data.3.description}}</p>
+		</div>
+	</script>
+	<script src="handlebars-1.0.rc.1.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script src="json.js"></script>
+</body>
+</html>
