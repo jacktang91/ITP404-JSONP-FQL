@@ -12,6 +12,6 @@ function myFunction(fbData){
 	document.getElementById('page-info').innerHTML = html;
 };
 
-$(".page").on("click","a", function(){
+$(".page").on("click",".moreinfo", function(){
 		console.log('hello');		
 });
