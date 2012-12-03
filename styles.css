@@ -22,3 +22,7 @@ h1{
 	border: 2px black solid;
 	margin-top: 20px;
 }
+
+.additional{
+	display: none;
+}
